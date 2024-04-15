@@ -10,8 +10,10 @@
     font-family: Inter;
     src: url(./font/Inter-VariableFont_slnt\,wght.ttf);
 }
-body {
+* {
     max-width: 1512px;
+}
+body {
     margin: 0px;
     background-color: #EEF2F9;
     font-family: Jacques Francois;
@@ -166,11 +168,11 @@ body {
     font-weight: 400;
     line-height: 24.2px;
     color: #17407D;
-    margin-left: 100px;
+    padding-left: 100px;
 }
 .article-footer-contacts {
-    margin-left: 100px;
-    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .article-footer-contacts a {
     margin-right: 10px;
