@@ -10,10 +10,8 @@
     font-family: Inter;
     src: url(./font/Inter-VariableFont_slnt\,wght.ttf);
 }
-* {
-    max-width: 1512px;
-}
 body {
+    max-width: 1512px;
     margin: 0px;
     background-color: #EEF2F9;
     font-family: Jacques Francois;
@@ -32,7 +30,7 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 24.2px;
-    margin: 0px 90px 0px 30px;
+    margin: 0px 50px 0px 30px;
 }
 .nav-menu .last {
     margin: 0px 0px 0px 30px;
@@ -44,7 +42,7 @@ body {
     font-size: 36px;
     font-weight: 400;
     line-height: 42.41px;
-    margin-right: 50px;
+    margin-right: 200px;
 }
 .nav-search {
     margin-left: 170px;
@@ -54,11 +52,10 @@ body {
     align-items: center;
 }
 .article-exclusive img {
-    max-width: 100%;
-    height: auto;
+    max-width: 50%;
 }
 .article-exclusive-description {
-    padding: 0px 40px;
+    padding-left: 40px;
 }
 .article-exclusive h2 {
     font-size: 48px;
@@ -171,11 +168,11 @@ body {
     padding-left: 100px;
 }
 .article-footer-contacts {
-    padding-left: 100px;
+    padding-left: 80px;
     padding-right: 100px;
 }
 .article-footer-contacts a {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .footer-rights {
     background-image: url(./img/Rectangle\ 13.png);
